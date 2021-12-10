@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>cv</title>
+
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/spacelab.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Rosamond Thalken</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="cv.html">CV</a>
+</li>
+<li>
+  <a href="projects.html">Projects</a>
+</li>
+<li>
+  <a href="reading-log.html">Reading Log</a>
+</li>
+<li>
+  <a href="https://github.com/rosthalken">Code</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="mailto:&lt;ret85@cornell.edu&gt;">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="http://github.com/rosthalken/">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">cv</h1>
+
+</div>
+
+
+<p><a href="files/thalken_resume_main.pdf">Download full CV</a></p>
+<div id="research-areas" class="section level2">
+<h2>Research Areas</h2>
+<p>Cultural analytics, natural language processing (NLP), digital humanities, reception studies</p>
+</div>
+<div id="education" class="section level2">
+<h2>Education</h2>
+<p><strong>Cornell University</strong>, Ph.D. Information Science  - present</p>
+<ul>
+<li>Advisors: Matthew Wilkens and David Mimno</li>
+<li>Minor: Sociology</li>
+</ul>
+<p><strong>Washington State University</strong>, M.A. English Literature  - 2019</p>
+<ul>
+<li>Advisor: Matthew Jockers</li>
+<li>Thesis: <em>A Very Competent Justice: Gender and Responsive Ethos in Supreme Court Opinions</em></li>
+</ul>
+<p><strong>University of Nebraska</strong>, B.A. English and Film Studies  - 2017</p>
+</div>
+<div id="published-books" class="section level2">
+<h2>Published Books</h2>
+<p>Matthew L. Jockers and Rosamond Thalken. <strong>Text Analysis With R: For Students of Literature</strong>. 2nd Edition. <em>Springer</em>. 2019, Print.</p>
+</div>
+<div id="industry-and-research-experience" class="section level2">
+<h2>Industry and Research Experience</h2>
+<p><em>Authors AI</em>, Associate Research Scientist Summer 2021 - present</p>
+<ul>
+<li><a href="https://authors.ai/marlowe/"><strong>Marlowe</strong></a><br />
+• Design and maintain NLP-driven book report for fiction <strong>authors</strong><br />
+• Support fiction authors as they submit and interpret Marlowe reports<br />
+</li>
+<li><a href="https://bingebooks.com/"><strong>BingeBooks</strong></a><br />
+• Develop (in progress) book recommendation algorithm for <strong>readers</strong></li>
+</ul>
+<p><em>Cornell University</em>, Graduate Research Assistant  - present</p>
+<ul>
+<li><p><strong>Readership Networks</strong><br />
+• Compare books read by Shakespeare and Co library members and Goodreads reviewers<br />
+• Use network analysis to identify core-periphery structure of book community</p></li>
+<li><p><strong>Supreme Court Rhetoric</strong><br />
+• Classify rhetoric in Supreme Court opinions, using a large language model, BERT<br />
+• Find diachronic language patterns and associate with related changes to the Court</p></li>
+</ul>
+<p><em>Washington State University</em>, Graduate Research Assistant  - 2019</p>
+<ul>
+<li><p><strong>An fMRI Analysis of Reader Sentiment</strong><br />
+• Design fMRI behavioral test to assess neural response to ambiguity in fiction<br />
+• Survey participants about political leanings, behavioral type, and reading habits</p></li>
+<li><p><strong>Supreme Court and Gender</strong><br />
+• Find rhetorical strategies through supervised machine learning<br />
+• Contextualize findings with theories from gender studies and rhetoric</p></li>
+</ul>
+<p><em>University of Nebraska</em>, Undergraduate Research Assistant  - 2017</p>
+<ul>
+<li><p><strong>Character Agency and Gender in Fiction</strong><br />
+• Analyze books that defy gendered agency cultural norms in pronoun-verb pairs</p></li>
+<li><p><strong>George Eliot Digitization project</strong><br />
+• Transcribe letters written to and from George Eliot<br />
+• Digitize and edit journal dedicated to scholarship on George Eliot</p></li>
+</ul>
+</div>
+<div id="conferences-and-presentations" class="section level2">
+<h2>Conferences and Presentations</h2>
+<p><strong>The Monologic Voice: A Uniting Rhetoric of Supreme Court Opinions</strong><br />
+Rosamond Thalken, David Mimno, and Matthew Wilkens<br />
+2021 New Directions in Analyzing Text as Data (TADA) Conference</p>
+<p><strong>Constraints, Creativity, and Control: A Computational Analysis of Rhetoric in Court Opinions</strong><br />
+Rosamond Thalken, David Mimno, and Matthew Wilkens<br />
+2021 Association for Computers and the Humanities Conference</p>
+<p><strong>Making, Preserving, and Curating Born-Digital Literature</strong><br />
+Rosamond Thalken, Dene Grigar, et al.<br />
+2020 Modern Language Association Annual Convention</p>
+<p><strong>Gendered Judges</strong><br />
+Rosamond Thalken and Matthew L. Jockers<br />
+2019 Text Analysis and the Law Conference</p>
+<p><strong>Individual Differences in Sentence-Level Emotion Processing</strong><br />
+Matthew L. Jockers and Rosamond Thalken<br />
+2019 Modern Language Association Annual Convention</p>
+<p><strong>Dissenting Women: Studying Gender and Language in Supreme Court Opinions</strong><br />
+Rosamond Thalken<br />
+2018 Chicago Colloquium on Digital Humanities and Computer Science</p>
+<p><strong>An fMRI Analysis of Reading Sentiment</strong><br />
+Matthew L. Jockers and Rosamond Thalken<br />
+Access: NovelTM 2017 Workshop</p>
+<p><strong>The Creative Commons Philosophy: When We Share, Everyone Wins</strong><br />
+Beverley Rilett and Rosamond Thalken<br />
+2017 European Studies Conference</p>
+<p><strong>The George Eliot Review Digitization Project: A Transatlantic Collaboration</strong><br />
+Beverley Rilett and Rosamond Thalken<br />
+2017 University of Nebraska Red Talk Speaker Series</p>
+<p><strong>The George Eliot Review Digitization Project</strong><br />
+Rosamond Thalken<br />
+2017 UNL Research at the Capitol: Presenting Undergraduate Research to State Senators</p>
+<p><strong>Marketing George Eliot: Sunday Afternoons at the Priory</strong><br />
+Beverley Rilett and Rosamond Thalken<br />
+2016 European Studies Conference</p>
+</div>
+<div id="honors-awards-and-fellowships" class="section level2">
+<h2>Honors, Awards, and Fellowships</h2>
+<ul>
+<li>Cornell University Fellowship -2021</li>
+<li>HASTAC Scholars National Program -2019</li>
+<li>Undergraduate Creative Activities and Research Experience Grant ; 2017</li>
+</ul>
+</div>
+<div id="teaching-experience" class="section level2">
+<h2>Teaching Experience</h2>
+<div id="instructor-washington-state-university-fall-2019---winter-2021" class="section level3">
+<h3>Instructor, <em>Washington State University</em>, Fall 2019 - Winter 2021</h3>
+<ul>
+<li>DTC 475: Digital Diversity, 3 sections</li>
+<li>DTC 375: Language, Texts, and Technology, 1 section</li>
+<li>DTC 204: Introduction to Text Analysis, Course Designer</li>
+<li>DTC 101: Introduction to Digital Technology and Culture, 1 section</li>
+<li>Womens_St 101: Introduction to Women’s, Gender, and Sexuality Studies, 1 section</li>
+<li>ENGL 101: College Composition, 4 sections</li>
+</ul>
+</div>
+<div id="graduate-teaching-assistant-washington-state-university-fall-2018---spring-2019" class="section level3">
+<h3>Graduate Teaching Assistant, <em>Washington State University</em>, Fall 2018 - Spring 2019</h3>
+<ul>
+<li>ENGL 101: College Composition, 1 section</li>
+<li>ENGL 102: Writing Tutorial</li>
+</ul>
+</div>
+<div id="teaching-intern-university-of-nebraska-fall-2015" class="section level3">
+<h3>Teaching Intern, <em>University of Nebraska</em>, Fall 2015</h3>
+<ul>
+<li>ENGL 189H: Iconic Couples in Literature</li>
+</ul>
+</div>
+</div>
+<div id="service-and-leadership" class="section level2">
+<h2>Service and Leadership</h2>
+<ul>
+<li><strong>President</strong>, Information Science Graduate Student Association  - 2022</li>
+<li><strong>Coordinator</strong>, Writing Lincoln Initiative  - 2018</li>
+<li><strong>Volunteer Teacher</strong>, Writing Lincoln Initiative  - 2018</li>
+<li><strong>Undergraduate Representative</strong>, Digital Humanities Student Association  - 2018</li>
+<li><strong>Academic Program Review Undergraduate Representative</strong>, University of Nebraska </li>
+<li><strong>English Student Advisory Board</strong>, University of Nebraska  - 2017</li>
+</ul>
+</div>
+<div id="editing-experience" class="section level2">
+<h2>Editing Experience</h2>
+<ul>
+<li>Women’s, Gender, and Sexuality Studies</li>
+<li>MATC</li>
+</ul>
+</div>
+<div id="non-degree-studies" class="section level2">
+<h2>Non-Degree Studies</h2>
+<p><strong>Education Abroad in Belgium and the Netherlands</strong>, University of Nebraska May 2017<br />
+<em>Dissidence and Social Protest in Belgian and Dutch Literature and Culture: Reading the Lowlands</em></p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

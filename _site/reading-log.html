@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Reading Log</title>
+
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/spacelab.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Rosamond Thalken</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="cv.html">CV</a>
+</li>
+<li>
+  <a href="projects.html">Projects</a>
+</li>
+<li>
+  <a href="reading-log.html">Reading Log</a>
+</li>
+<li>
+  <a href="https://github.com/rosthalken">Code</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="mailto:&lt;ret85@cornell.edu&gt;">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="http://github.com/rosthalken/">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Reading Log</h1>
+
+</div>
+
+
+<p><strong>November 2021</strong><br />
+<em>Dune</em> by Frank Herbert<br />
+<em>No Time to Spare</em> by Ursula K. Le Guin</p>
+<p><strong>October 2021</strong><br />
+<em>Kindred</em> by Octavia Butler<br />
+<em>Sisters</em> by Daisy Johnson</p>
+<p><strong>September 2021</strong><br />
+<em>The Hidden Life of Trees</em> by Peter Wohlleben</p>
+<p><strong>August 2021</strong><br />
+<em>In the Dream House</em> by Carman Maria Machado</p>
+<p><strong>July 2021</strong><br />
+<em>Braiding Sweetgrass</em> by Robin Wall Kimmerer</p>
+<p><strong>June 2021</strong><br />
+<em>Love Medicine</em> by Louise Erdrich</p>
+<p><strong>May 2021</strong><br />
+<em>Hummingbird Salamander</em> by Jeff VanderMeer</p>
+<p><strong>April 2021</strong><br />
+<em>Exhalation</em> by Ted Chiang<br />
+<em>Silent Spring</em> by Rachel Carson</p>
+<p><strong>March 2021</strong><br />
+<em>Little Fires Everywhere</em> by Celeste Ng<br />
+<em>Capitalist Realism</em> by Mark Fisher<br />
+<em>Parable of the Talents</em> by Octavia Butler</p>
+<p><strong>February 2021</strong><br />
+<em>Wide Sargasso Sea</em> by Jean Rhys<br />
+<em>Abolish Silicon Valley: How to Liberate Technology from Capitalism</em> by Wendy Liu</p>
+<p><strong>January 2021</strong><br />
+<em>Eileen</em> by Ottessa Moshfegh<br />
+<em>Conversations with Friends</em> by Sally Rooney</p>
+<p><strong>December 2020</strong><br />
+<em>The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography</em> by Simon Singh<br />
+<em>The Visual Display of Quantitative Information</em> by Edward R. Tufte<br />
+<em>My Year of Rest and Relaxation</em> by Ottessa Moshfegh</p>
+<p><strong>November 2020</strong><br />
+<em>Mexican Gothic</em> by Silvia Moreno-Garcia</p>
+<p><strong>October 2020</strong><br />
+<em>Frankissstein</em> by Jeanette Winterson</p>
+<p><strong>September 2020</strong><br />
+<em>Through the Arc of the Rainforest</em> by Karen Tei Yamashita</p>
+<p><strong>August 2020</strong><br />
+<em>The New Jim Crow</em> by Michelle Alexander<br />
+<em>Permanent Record</em> by Edward Snowden</p>
+<p><strong>July 2020</strong><br />
+<em>Parable of the Sower</em> by Octavia Butler</p>
+<p><strong>June 2020</strong><br />
+<em>Race After Technology: Abolitionist Tools for the New Jim Code</em> by Ruha Benjamin</p>
+<p><strong>May 2020</strong><br />
+<em>Dragnet Nation: A Quest for Privacy, Security, and Freedom in a World of Relentless Surveillance</em> by Julia Angwin<br />
+<em>I Like to Watch: Arguing My Way Through the TV Revolution</em> by Emily Nussbaum</p>
+<p><strong>April 2020</strong><br />
+<em>Data Feminism</em> by Catherine D’Ignazio and Lauren Klein<br />
+<em>Network Sovereignty: Building the Internet through Internet Country</em> by Maria Elena Duarte<br />
+<em>Sons and Other Flammable Object</em>s by Porochista Khakpour<br />
+<em>You Look Like a Thing and I Love You: How Artificial Intelligence Works and Why It’s Making the World a Weirder Place</em> by Janelle Shane</p>
+<p><strong>March 2020</strong><br />
+<em>Finished The Starless Sea</em> by Erin Morgenstern</p>
+<p><strong>January 2020</strong><br />
+<em>Free Culture: The Language and Future of Creativity</em> by Lawrence Lessig<br />
+<em>The Starless Sea</em> by Erin Morgenstern<br />
+<em>Dark Matter: On the Surveillance of Blackness</em> by Simone Browne</p>
+<p><strong>December 2019</strong><br />
+<em>Ada’s Algorithm: How Lord Byron’s Daughter Ada Lovelace Launched the Digital Age</em> by James Essinger<br />
+<em>The Spell of the Sensuous</em> by David Abram<br />
+<em>Paper Knowledge: Toward a Media History of Documents</em> by Lisa Gitelman<br />
+<em>Reading Machines: Toward an Algorithmic Criticism</em> by Stephen Ramsay</p>
+<p><strong>November 2019</strong><br />
+<em>Educated</em> by Tara Westover</p>
+<p><strong>October 2019</strong><br />
+<em>Annihilation</em> by Jeff VenderMeer</p>
+<p><strong>September 2019</strong><br />
+<em>Trick Mirror: Reflections on Self-Delusion</em> by Jia Tolentino</p>
+<p><strong>August 2019</strong><br />
+<em>Her Body and Other Parties</em> by Carmen Maria Machado<br />
+<em>Three Women</em> by Lisa Taddeo<br />
+<em>The Age of Surveillance Capitalism: The Fight For a Human Future at the New Frontier of Power</em> by Shoshanna Zuboff</p>
+<p><strong>July 2019</strong><br />
+<em>The Beet Queen</em> by Louise Erdrich<br />
+<em>Algorithms of Oppression: How Search Engines Reinforce Racism</em> by Safiya Umoja Noble<br />
+<em>We Are Data: Algorithms and The Making of Our Digital Selves</em> by John Cheney-Lippold<br />
+<em>The Handmaid’s Tale</em> by Margaret Atwood</p>
+<p><em>This page is for the convergence of personal and professional (and my poor memory).</em></p>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

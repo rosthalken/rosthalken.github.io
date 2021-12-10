@@ -1,0 +1,19 @@
+---
+title: "Projects"
+output: html_document
+---
+**Adaptation Reception**. Project Description. [[code](https://github.com/rosthalken/book-film-adaptation)]
+
+**Endometriosis Support Communities**. Project Description. [[code](https://github.com/federicabologna/endometriosis)]
+
+**Judicial Self Fashioning**. Supreme Court Justices carefully craft legitimating judicial personas in court opinions. Drawing from qualitative work by Robert A. Ferguson, we (with David Mimno and Matthew Wilkens) operationalize a rhetorical strategy, called the monologic voice. We find that the Roberts Court diverges from prior norms, forming more collective judicial personas in the court opinion. Prior Courts always present more individualistic than collective judicial personas. This result suggests that, in the court opinion, the Roberts Court likely performs unification in response to public criticism about ideological division.   [[slides](files/judicial_self_fashioning_slides.pdf)] [[code](https://github.com/rosthalken/supreme-court-rhetoric)] [paper available at request]
+
+**NLP for Book Recommendations and Fiction Authors**. I’m the Associate Research Scientist for Authors AI, where I build and maintain natural language processing tools to help authors write fiction and readers (soon) find the books they’ll love.   
+[[Marlowe](https://authors.ai/marlowe/)] [[BingeBooks](https://bingebooks.com/)]
+
+**The Afterlives of Shakespeare and Company in Online Social Readership**. With Maria Antoniak, Greg Yauney, David Mimno, Melanie Walsh, and Matthew Wilkens, we compare the readership network of [Shakespeare and Co](https://shakespeareandco.princeton.edu/) (side note: the rabbit hole of the S&C dataset is recommended!) to Goodreads. My part in the project identifies the core-periphery network structure, finding that network analysis magnifies two prolific co-readers (and friends?) [Alice Killen](https://shakespeareandco.princeton.edu/members/killen/) and [France Emma Raphaël](https://shakespeareandco.princeton.edu/members/raphael-france/).  
+[[code](https://github.com/gyauney/shakespeare-and-company-social-readership)]
+
+**Rhetorical Strategies of the First Women on the Supreme Court**. The Supreme Court has historically been an exclusive space, with a homogenous group of Justices. In the past decades, the Supreme Court has seen improvement its gender balance. My Master’s thesis studied the rhetorical strategies used by the first two women on the Supreme Court, Justices Ruth Bader Ginsburg and Sandra Day O’Connor. [[thesis](http://www.dissertations.wsu.edu/Thesis/Spring2019/r_thalken_041819.pdf)]  [[code](https://github.com/rosthalken/supreme-court-thesis)]
+
+**An fMRI Analysis of Reader Sentiment**. What happens in a reader’s brain when they encounter ambiguous emotional content? This (ultimately inconclusive) project, with Matthew Jockers, Maital Neta, and Matthew Johnson, asked participants to read/rate emotionally ambiguous sentences from fiction, while picking up neural response through an fMRI. [[slides](files/thalken_mla.pdf)]

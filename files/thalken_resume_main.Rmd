@@ -1,0 +1,176 @@
+---
+output: stevetemplates::cv
+geometry: margin=1in
+
+title: "CV"
+author: Rosamond Thalken
+
+jobtitle: "PhD Student, Information Science, Cornell University"
+fontawesome: yes
+email: ret85@cornell.edu
+github: rosthalken
+#twitter: RosamondThalken  
+#osf: "Enter 5 digit osf string here"
+#phone: "+353 1 408 4800"
+web: rosamondthalken.com
+updated: FALSE
+rdateformat: "`r format(Sys.time(), '%b %Y')`"
+
+keywords: R Markdown, academic CV, template
+
+fontfamily: mathpazo
+fontfamilyoptions: sc, osf
+fontsize: 11pt
+linkcolor: blue
+urlcolor: blue
+---
+
+# Research Areas
+Cultural analytics, natural language processing (NLP), digital humanities, reception studies
+
+# Education
+**Cornell University**, Ph.D. Information Science \hfill 2020 - present  
+
+  * Advisors: Matthew Wilkens and David Mimno 
+  * Minor: Sociology  
+  
+**Washington State University**, M.A. English Literature \hfill 2017 - 2019   
+
+  * Advisor: Matthew Jockers
+  * Thesis: *A Very Competent Justice: Gender and Responsive Ethos in Supreme Court Opinions*
+
+**University of Nebraska**, B.A. English and Film Studies \hfill 2013 - 2017  
+
+# Published Books
+
+Matthew L. Jockers and Rosamond Thalken. **Text Analysis With R: For Students of Literature**. 2nd Edition. *Springer*. 2019, Print.
+
+
+# Industry and Research Experience
+
+*Authors AI*, Associate Research Scientist \hfill Summer 2021 - present  
+
+  *  [**Marlowe**](https://authors.ai/marlowe/)  
+    •  Design and maintain NLP-driven book report for fiction **authors**  
+    •  Support fiction authors as they submit and interpret Marlowe reports  
+  *  [**BingeBooks**](https://bingebooks.com/)  
+    •  Develop (in progress) book recommendation algorithm for **readers**  
+
+    
+*Cornell University*, Graduate Research Assistant \hfill 2020 - present
+  
+  *  **Readership Networks**  
+    •  Compare books read by Shakespeare and Co library members and Goodreads reviewers  
+    •  Use network analysis to identify core-periphery structure of book community  
+    
+  *  **Supreme Court Rhetoric**  
+    •  Classify rhetoric in Supreme Court opinions, using a large language model, BERT  
+    •  Find diachronic language patterns and associate with related changes to the Court  
+
+*Washington State University*, Graduate Research Assistant \hfill 2017 - 2019
+
+  *  **An fMRI Analysis of Reader Sentiment**  
+    •  Design fMRI behavioral test to assess neural response to ambiguity in fiction  
+    •  Survey participants about political leanings, behavioral type, and reading habits
+
+  * **Supreme Court and Gender**  
+    •  Find rhetorical strategies through supervised machine learning   
+    •  Contextualize findings with theories from gender studies and rhetoric  
+
+*University of Nebraska*, Undergraduate Research Assistant \hfill 2016 - 2017
+
+  * **Character Agency and Gender in Fiction**  
+    •  Analyze books that defy gendered agency cultural norms in pronoun-verb pairs   
+
+  * **George Eliot Digitization project**  
+    •  Transcribe letters written to and from George Eliot  
+    •  Digitize and edit journal dedicated to scholarship on George Eliot  
+    
+
+# Conferences and Presentations
+
+**The Monologic Voice: A Uniting Rhetoric of Supreme Court Opinions**  
+Rosamond Thalken, David Mimno, and Matthew Wilkens  
+2021 New Directions in Analyzing Text as Data (TADA) Conference  
+
+**Constraints, Creativity, and Control: A Computational Analysis of Rhetoric in Court Opinions**  
+Rosamond Thalken, David Mimno, and Matthew Wilkens  
+2021 Association for Computers and the Humanities Conference  
+
+**Making, Preserving, and Curating Born-Digital Literature**  
+Rosamond Thalken, Dene Grigar, et al.  
+2020 Modern Language Association Annual Convention  
+
+**Gendered Judges**  
+Rosamond Thalken and Matthew L. Jockers  
+2019 Text Analysis and the Law Conference  
+
+**Individual Differences in Sentence-Level Emotion Processing**  
+Matthew L. Jockers and Rosamond Thalken  
+2019 Modern Language Association Annual Convention  
+
+**Dissenting Women: Studying Gender and Language in Supreme Court Opinions**  
+Rosamond Thalken  
+2018 Chicago Colloquium on Digital Humanities and Computer Science  
+
+**An fMRI Analysis of Reading Sentiment**  
+Matthew L. Jockers and Rosamond Thalken  
+Access: NovelTM 2017 Workshop  
+
+**The Creative Commons Philosophy: When We Share, Everyone Wins**  
+Beverley Rilett and Rosamond Thalken  
+2017 European Studies Conference  
+
+**The George Eliot Review Digitization Project: A Transatlantic Collaboration**  
+Beverley Rilett and Rosamond Thalken  
+2017 University of Nebraska Red Talk Speaker Series  
+
+**The George Eliot Review Digitization Project**  
+Rosamond Thalken  
+2017 UNL Research at the Capitol: Presenting Undergraduate Research to State Senators   
+
+**Marketing George Eliot: Sunday Afternoons at the Priory**  
+Beverley Rilett and Rosamond Thalken  
+2016 European Studies Conference  
+
+
+# Honors, Awards, and Fellowships
+
+  * Cornell University Fellowship \hfill 2020-2021
+  * HASTAC Scholars National Program \hfill  2017-2019
+  * Undergraduate Creative Activities and Research Experience Grant \hfill 2016; 2017
+
+# Teaching Experience
+
+## Instructor, *Washington State University*, Fall 2019 - Winter 2021
+  * DTC 475: Digital Diversity, 3 sections
+  * DTC 375: Language, Texts, and Technology, 1 section
+  * DTC 204: Introduction to Text Analysis, Course Designer
+  * DTC 101: Introduction to Digital Technology and Culture, 1 section
+  * Womens_St 101: Introduction to Women’s, Gender, and Sexuality Studies, 1 section
+  * ENGL 101: College Composition, 4 sections
+  
+## Graduate Teaching Assistant, *Washington State University*, Fall 2018 - Spring 2019
+  * ENGL 101: College Composition, 1 section
+  * ENGL 102: Writing Tutorial
+
+## Teaching Intern, *University of Nebraska*, Fall 2015
+  * ENGL 189H: Iconic Couples in Literature
+
+
+# Service and Leadership
+  * **President**, Information Science Graduate Student Association  \hfill  2021 - 2022
+  * **Coordinator**, Writing Lincoln Initiative \hfill 2017 - 2018
+  * **Volunteer Teacher**, Writing Lincoln Initiative \hfill 2014 - 2018
+  * **Undergraduate Representative**, Digital Humanities Student Association \hfill 2016 - 2018
+  * **Academic Program Review Undergraduate Representative**, University of Nebraska  \hfill 2016
+  * **English Student Advisory Board**, University of Nebraska \hfill 2015 - 2017 
+  
+# Editing Experience
+  * Women's, Gender, and Sexuality Studies
+  * MATC
+
+# Non-Degree Studies
+
+**Education Abroad in Belgium and the Netherlands**, University of Nebraska \hfill May 2017  
+  *Dissidence and Social Protest in Belgian and Dutch Literature and Culture: Reading the Lowlands*

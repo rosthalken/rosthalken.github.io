@@ -1,0 +1,116 @@
+---
+title: "Reading Log"
+output: html_document
+---
+
+**November 2021**  
+*Dune* by Frank Herbert    
+*No Time to Spare* by Ursula K. Le Guin  
+
+**October 2021**  
+*Kindred* by Octavia Butler  
+*Sisters* by Daisy Johnson  
+
+
+**September 2021**  
+*The Hidden Life of Trees* by Peter Wohlleben
+
+
+**August 2021**  
+*In the Dream House* by Carman Maria Machado  
+
+**July 2021**  
+*Braiding Sweetgrass* by Robin Wall Kimmerer  
+
+**June 2021**  
+*Love Medicine* by Louise Erdrich  
+
+**May 2021**  
+*Hummingbird Salamander* by Jeff VanderMeer  
+
+**April 2021**   
+*Exhalation* by Ted Chiang  
+*Silent Spring* by Rachel Carson  
+
+**March 2021**   
+*Little Fires Everywhere* by Celeste Ng   
+*Capitalist Realism* by Mark Fisher   
+*Parable of the Talents* by Octavia Butler  
+
+**February 2021**   
+*Wide Sargasso Sea* by Jean Rhys  
+*Abolish Silicon Valley: How to Liberate Technology from Capitalism* by Wendy Liu  
+
+**January 2021**  
+*Eileen* by Ottessa Moshfegh  
+*Conversations with Friends* by Sally Rooney  
+
+**December 2020**  
+*The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography* by Simon Singh  
+*The Visual Display of Quantitative Information* by Edward R. Tufte  
+*My Year of Rest and Relaxation* by Ottessa Moshfegh  
+
+**November 2020**  
+*Mexican Gothic* by Silvia Moreno-Garcia  
+
+**October 2020**   
+*Frankissstein* by Jeanette Winterson   
+
+**September 2020**  
+*Through the Arc of the Rainforest* by Karen Tei Yamashita  
+
+**August 2020**  
+*The New Jim Crow* by Michelle Alexander  
+*Permanent Record* by Edward Snowden  
+
+**July 2020**  
+*Parable of the Sower* by Octavia Butler  
+
+**June 2020**  
+*Race After Technology: Abolitionist Tools for the New Jim Code* by Ruha Benjamin  
+
+**May 2020**   
+*Dragnet Nation: A Quest for Privacy, Security, and Freedom in a World of Relentless Surveillance* by Julia Angwin   
+*I Like to Watch: Arguing My Way Through the TV Revolution* by Emily Nussbaum   
+
+**April 2020**   
+*Data Feminism* by Catherine D’Ignazio and Lauren Klein  
+*Network Sovereignty: Building the Internet through Internet Country* by Maria Elena Duarte  
+*Sons and Other Flammable Object*s by Porochista Khakpour  
+*You Look Like a Thing and I Love You: How Artificial Intelligence Works and Why It’s Making the World a Weirder Place* by Janelle Shane  
+
+**March 2020**  
+*Finished The Starless Sea* by Erin Morgenstern  
+
+**January 2020**  
+*Free Culture: The Language and Future of Creativity* by Lawrence Lessig  
+*The Starless Sea* by Erin Morgenstern  
+*Dark Matter: On the Surveillance of Blackness* by Simone Browne  
+
+**December 2019**  
+*Ada’s Algorithm: How Lord Byron’s Daughter Ada Lovelace Launched the Digital Age* by James Essinger  
+*The Spell of the Sensuous* by David Abram  
+*Paper Knowledge: Toward a Media History of Documents* by Lisa Gitelman  
+*Reading Machines: Toward an Algorithmic Criticism* by Stephen Ramsay  
+
+**November 2019**  
+*Educated* by Tara Westover  
+
+**October 2019**  
+*Annihilation* by Jeff VenderMeer  
+
+**September 2019**  
+*Trick Mirror: Reflections on Self-Delusion* by Jia Tolentino  
+
+**August 2019**  
+*Her Body and Other Parties* by Carmen Maria Machado  
+*Three Women* by Lisa Taddeo  
+*The Age of Surveillance Capitalism: The Fight For a Human Future at the New Frontier of Power* by Shoshanna Zuboff  
+
+**July 2019**  
+*The Beet Queen* by Louise Erdrich  
+*Algorithms of Oppression: How Search Engines Reinforce Racism* by Safiya Umoja Noble  
+*We Are Data: Algorithms and The Making of Our Digital Selves* by John Cheney-Lippold  
+*The Handmaid’s Tale* by Margaret Atwood  
+
+*This page is for the convergence of personal and professional (and my poor memory).* 

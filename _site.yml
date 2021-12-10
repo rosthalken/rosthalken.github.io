@@ -1,0 +1,22 @@
+name: "personal-website"
+navbar:
+  title: "Rosamond Thalken"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "CV"
+      href: cv.html
+    - text: "Projects"
+      href: projects.html
+    - text: "Reading Log"
+      href: reading-log.html
+    - text: "Code"
+      href: https://github.com/rosthalken
+  right: 
+    - icon: fa-envelope fa-lg
+      href: mailto:<ret85@cornell.edu>
+    - icon: fa-github fa-lg
+      href: http://github.com/rosthalken/
+output:
+  html_document:
+    theme: spacelab
